@@ -74,7 +74,7 @@ class BlockStickerpack:
             who_block = get_username_or_name(message.from_user)
 
             response_text = f'Ебучий стикерпак [{pack_name}]({pack_link}) успешно заблокирован!\n' \
-                            f'Гнусный стикер отправил: {sticker_from} | Заблокировал: лично ПУТИН'
+                            f'Гнусный стикер отправил: {sticker_from} | Заблокировал: лично В.В. ПУТИН'
 
         message.reply_text(text=response_text, parse_mode=ParseMode.MARKDOWN, quote=False)
 
