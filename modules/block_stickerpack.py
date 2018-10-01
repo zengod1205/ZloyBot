@@ -9,7 +9,7 @@ from utils import is_user_group_admin, get_username_or_name
 
 class BlockStickerpack:
     _STICKER_ADD_URL = 'https://t.me/addstickers/'
-    _ADMIN_RESTRICTION_MESSAGE = 'Эта функция предназначена только для админов!'
+    _ADMIN_RESTRICTION_MESSAGE = 'Эта функция предназначена только для РУССКИХ админов!'
     _NO_STICKERPACKS_BLOCKED_MESSAGE = 'Заблокированных стикерпаков нет.'
 
     def __init__(self, chat_id, admin_id):
@@ -57,7 +57,7 @@ class BlockStickerpack:
             return
 
         if message.reply_to_message is None or message.reply_to_message.sticker is None:
-            message.reply_text(text='Команда предназначена только для ответа на сообщения со стикером!', quote=False)
+            message.reply_text(text='Команда предназначена только блокирования ХОХЛЯЦКИХ стикерпаков!', quote=False)
             return
 
         sticker = message.reply_to_message.sticker
@@ -73,8 +73,8 @@ class BlockStickerpack:
             sticker_from = get_username_or_name(message.reply_to_message.from_user)
             who_block = get_username_or_name(message.from_user)
 
-            response_text = f'Стикерпак [{pack_name}]({pack_link}) успешно заблокирован!\n' \
-                            f'Стикер отправил: {sticker_from} | Заблокировал: {who_block}'
+            response_text = f'Ебучий стикерпак [{pack_name}]({pack_link}) успешно заблокирован!\n' \
+                            f'Гнусный стикер отправил: {sticker_from} | Заблокировал: лично ПУТИН'
 
         message.reply_text(text=response_text, parse_mode=ParseMode.MARKDOWN, quote=False)
 
