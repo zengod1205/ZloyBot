@@ -13,6 +13,6 @@ def random_reaction(bot, update):
     if randint(1, 200) == 1:
         bot.sendMessage(chat_id=chat_id, reply_to_message_id=message_id,
                         text='Верните ДИМУ!!!')
-     if randint(1, 300) == 1:
+    if randint(1, 300) == 1:
         bot.sendMessage(chat_id=chat_id, reply_to_message_id=message_id,
                         text='ПАК ПО ДОЛЛАРУ!')
