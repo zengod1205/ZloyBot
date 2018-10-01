@@ -37,7 +37,21 @@ class PrimitiveResponse:
         
         text_response([r'иди на ?хуй', r'на ?хуй пошел', r'на ?хуй иди',
                        r'пошел на ?хуй'], 'nahui.txt')
-
+        
+        text_response(['русня', 'русне' , 'русак', 'pycне', 'pycня'], 'rus.txt')
+        
+        text_response(['хохол', 'хохлы' , 'хохла', 'хохлов'], 'ukr.txt')
+        
+        text_response(['$pac', 'pac' , 'пак', 'паки'], 'pac.txt')
+        
+        text_response(['на Украiне', 'на Украине'], 'В Украине.')
+        
+        text_response(['КАК ЖЕ ХОЧЕТСЯ'], 'Тянучку?.')
+        
+        text_response(['Тянучку'], 'Может с парнями попробуешь?.')
+        
+        text_response(['спать', 'посплю'], 'snov.txt')
+        
         text_response(['бот пидор', 'бот идиот', 'бот мудак'], 'И?')
 
         text_response(['бот няша'], 'Спасибо, ты тоже <3')
