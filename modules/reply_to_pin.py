@@ -5,7 +5,7 @@ from filters import PermittedChatFilter, supergroup_filter
 
 class ReplyToPin:
     _PINNED_MESSAGE = '☝️️'
-    _NOT_PINNED_MESSAGE = 'Закрепленное сообщение отсутствует.'
+    _NOT_PINNED_MESSAGE = 'Закрепленное сообщение отсутствует, пиздоглазый.'
 
     def __init__(self, chat_id, admin_id):
         self._chat_id = chat_id
