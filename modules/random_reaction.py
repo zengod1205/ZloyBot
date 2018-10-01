@@ -12,10 +12,8 @@ def random_reaction(bot, update):
                         text='Ты няша 😘')
     if randint(1, 200) == 1:
         bot.sendMessage(chat_id=chat_id, reply_to_message_id=message_id,
-                        text='Ну и пидорство.')
-    if randint(1, 150) == 1:
+                        text='Верните ДИМУ!!!')
+  if randint(1, 200) == 1:
         bot.sendMessage(chat_id=chat_id, reply_to_message_id=message_id,
-                        text='лмао')
-    if randint(1, 150) == 1:
-        bot.sendMessage(chat_id=chat_id, reply_to_message_id=message_id,
-                        text='😂😂😂👌🏻👌🏻👌🏻')
+                        text='ПАК ПО ДОЛЛАРУ!')
+  
